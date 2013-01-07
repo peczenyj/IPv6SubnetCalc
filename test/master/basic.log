@@ -1,0 +1,40 @@
+[::/128]
+
+[IPV6 INFO]
+ Expanded Address  - 0000:0000:0000:0000:0000:0000:0000:0000
+ Compressed address- ::
+ Prefix address    - ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ Prefix length     - 128
+ Network range     - 0000:0000:0000:0000:0000:0000:0000:0000
+                     0000:0000:0000:0000:0000:0000:0000:0000
+
+[::1/128]
+
+[IPV6 INFO]
+ Expanded Address  - 0000:0000:0000:0000:0000:0000:0000:0001
+ Compressed address- ::1
+ Prefix address    - ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ Prefix length     - 128
+ Network range     - 0000:0000:0000:0000:0000:0000:0000:0001
+                     0000:0000:0000:0000:0000:0000:0000:0001
+
+[fec0:bebe:cafe::/128]
+
+[IPV6 INFO]
+ Expanded Address  - fec0:bebe:cafe:0000:0000:0000:0000:0000
+ Compressed address- fec0:bebe:cafe::
+ Prefix address    - ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ Prefix length     - 128
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:0000:0000:0000:0000
+
+[fec0:bebe:cafe::1/88]
+
+[IPV6 INFO]
+ Expanded Address  - fec0:bebe:cafe:0000:0000:0000:0000:0001
+ Compressed address- fec0:bebe:cafe::1
+ Prefix address    - ffff:ffff:ffff:ffff:ffff:ff00:0000:0000
+ Prefix length     - 88
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:0000:00ff:ffff:ffff
+

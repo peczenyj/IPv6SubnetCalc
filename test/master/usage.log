@@ -1,0 +1,17 @@
+	Usage: 
+	IPv6SubnetCalc ip
+	 - show information about the ip 
+
+	IPv6SubnetCalc ip bits
+	 - split subnets based on bits
+
+	Examples: 
+	IPv6SubnetCalc fec0:bebe:cafe::
+	 - consider 128 bits of prefix 
+
+	IPv6SubnetCalc fec0:bebe:cafe::/64
+	 - consider 64 bits of prefix 
+
+	IPv6SubnetCalc fec0:bebe:cafe::/64 65
+	 - show 65 bits subnets in this address
+

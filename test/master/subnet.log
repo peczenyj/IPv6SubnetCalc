@@ -1,0 +1,594 @@
+[::1/11]
+
+[IPV6 INFO]
+ Expanded Address  - 0000:0000:0000:0000:0000:0000:0000:0001
+ Compressed address- ::1
+ Prefix address    - ffe0:0000:0000:0000:0000:0000:0000:0000
+ Prefix length     - 11
+ Network range     - 0000:0000:0000:0000:0000:0000:0000:0000
+                     001f:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+
+[Split network]
+ Split the current network into subnets of 12 bits of size
+ Found 2 subnet(s) 
+
+ Network range     - 0000:0000:0000:0000:0000:0000:0000:0000
+                     000f:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ Network range     - 0010:0000:0000:0000:0000:0000:0000:0000
+                     001f:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+[::127.0.0.1/128]
+
+[IPV6 INFO]
+ Expanded Address  - 0000:0000:0000:0000:0000:0000:7f00:0001
+ Compressed address- ::127.0.0.1
+ Prefix address    - ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ Prefix length     - 128
+ Network range     - 0000:0000:0000:0000:0000:0000:7f00:0001
+                     0000:0000:0000:0000:0000:0000:7f00:0001
+
+[fec0:bebe:cafe::/64]
+
+[IPV6 INFO]
+ Expanded Address  - fec0:bebe:cafe:0000:0000:0000:0000:0000
+ Compressed address- fec0:bebe:cafe::
+ Prefix address    - ffff:ffff:ffff:ffff:0000:0000:0000:0000
+ Prefix length     - 64
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:ffff:ffff:ffff:ffff
+
+[Split network]
+ Split the current network into subnets of 65 bits of size
+ Found 2 subnet(s) 
+
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:7fff:ffff:ffff:ffff
+ Network range     - fec0:bebe:cafe:0000:8000:0000:0000:0000
+                     fec0:bebe:cafe:0000:ffff:ffff:ffff:ffff
+[fec0:bebe:cafe::/122]
+
+[IPV6 INFO]
+ Expanded Address  - fec0:bebe:cafe:0000:0000:0000:0000:0000
+ Compressed address- fec0:bebe:cafe::
+ Prefix address    - ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffc0
+ Prefix length     - 122
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:0000:0000:0000:003f
+
+[Split network]
+ Split the current network into subnets of 124 bits of size
+ Found 4 subnet(s) 
+
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:0000:0000:0000:000f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0010
+                     fec0:bebe:cafe:0000:0000:0000:0000:001f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0020
+                     fec0:bebe:cafe:0000:0000:0000:0000:002f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0030
+                     fec0:bebe:cafe:0000:0000:0000:0000:003f
+[fec0:bebe:cafe::/120]
+
+[IPV6 INFO]
+ Expanded Address  - fec0:bebe:cafe:0000:0000:0000:0000:0000
+ Compressed address- fec0:bebe:cafe::
+ Prefix address    - ffff:ffff:ffff:ffff:ffff:ffff:ffff:ff00
+ Prefix length     - 120
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ff
+
+[Split network]
+ Split the current network into subnets of 128 bits of size
+ Found 256 subnet(s) 
+
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:0000:0000:0000:0000
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0001
+                     fec0:bebe:cafe:0000:0000:0000:0000:0001
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0002
+                     fec0:bebe:cafe:0000:0000:0000:0000:0002
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0003
+                     fec0:bebe:cafe:0000:0000:0000:0000:0003
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0004
+                     fec0:bebe:cafe:0000:0000:0000:0000:0004
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0005
+                     fec0:bebe:cafe:0000:0000:0000:0000:0005
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0006
+                     fec0:bebe:cafe:0000:0000:0000:0000:0006
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0007
+                     fec0:bebe:cafe:0000:0000:0000:0000:0007
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0008
+                     fec0:bebe:cafe:0000:0000:0000:0000:0008
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0009
+                     fec0:bebe:cafe:0000:0000:0000:0000:0009
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:000a
+                     fec0:bebe:cafe:0000:0000:0000:0000:000a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:000b
+                     fec0:bebe:cafe:0000:0000:0000:0000:000b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:000c
+                     fec0:bebe:cafe:0000:0000:0000:0000:000c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:000d
+                     fec0:bebe:cafe:0000:0000:0000:0000:000d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:000e
+                     fec0:bebe:cafe:0000:0000:0000:0000:000e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:000f
+                     fec0:bebe:cafe:0000:0000:0000:0000:000f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0010
+                     fec0:bebe:cafe:0000:0000:0000:0000:0010
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0011
+                     fec0:bebe:cafe:0000:0000:0000:0000:0011
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0012
+                     fec0:bebe:cafe:0000:0000:0000:0000:0012
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0013
+                     fec0:bebe:cafe:0000:0000:0000:0000:0013
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0014
+                     fec0:bebe:cafe:0000:0000:0000:0000:0014
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0015
+                     fec0:bebe:cafe:0000:0000:0000:0000:0015
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0016
+                     fec0:bebe:cafe:0000:0000:0000:0000:0016
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0017
+                     fec0:bebe:cafe:0000:0000:0000:0000:0017
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0018
+                     fec0:bebe:cafe:0000:0000:0000:0000:0018
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0019
+                     fec0:bebe:cafe:0000:0000:0000:0000:0019
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:001a
+                     fec0:bebe:cafe:0000:0000:0000:0000:001a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:001b
+                     fec0:bebe:cafe:0000:0000:0000:0000:001b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:001c
+                     fec0:bebe:cafe:0000:0000:0000:0000:001c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:001d
+                     fec0:bebe:cafe:0000:0000:0000:0000:001d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:001e
+                     fec0:bebe:cafe:0000:0000:0000:0000:001e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:001f
+                     fec0:bebe:cafe:0000:0000:0000:0000:001f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0020
+                     fec0:bebe:cafe:0000:0000:0000:0000:0020
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0021
+                     fec0:bebe:cafe:0000:0000:0000:0000:0021
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0022
+                     fec0:bebe:cafe:0000:0000:0000:0000:0022
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0023
+                     fec0:bebe:cafe:0000:0000:0000:0000:0023
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0024
+                     fec0:bebe:cafe:0000:0000:0000:0000:0024
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0025
+                     fec0:bebe:cafe:0000:0000:0000:0000:0025
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0026
+                     fec0:bebe:cafe:0000:0000:0000:0000:0026
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0027
+                     fec0:bebe:cafe:0000:0000:0000:0000:0027
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0028
+                     fec0:bebe:cafe:0000:0000:0000:0000:0028
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0029
+                     fec0:bebe:cafe:0000:0000:0000:0000:0029
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:002a
+                     fec0:bebe:cafe:0000:0000:0000:0000:002a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:002b
+                     fec0:bebe:cafe:0000:0000:0000:0000:002b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:002c
+                     fec0:bebe:cafe:0000:0000:0000:0000:002c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:002d
+                     fec0:bebe:cafe:0000:0000:0000:0000:002d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:002e
+                     fec0:bebe:cafe:0000:0000:0000:0000:002e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:002f
+                     fec0:bebe:cafe:0000:0000:0000:0000:002f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0030
+                     fec0:bebe:cafe:0000:0000:0000:0000:0030
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0031
+                     fec0:bebe:cafe:0000:0000:0000:0000:0031
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0032
+                     fec0:bebe:cafe:0000:0000:0000:0000:0032
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0033
+                     fec0:bebe:cafe:0000:0000:0000:0000:0033
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0034
+                     fec0:bebe:cafe:0000:0000:0000:0000:0034
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0035
+                     fec0:bebe:cafe:0000:0000:0000:0000:0035
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0036
+                     fec0:bebe:cafe:0000:0000:0000:0000:0036
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0037
+                     fec0:bebe:cafe:0000:0000:0000:0000:0037
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0038
+                     fec0:bebe:cafe:0000:0000:0000:0000:0038
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0039
+                     fec0:bebe:cafe:0000:0000:0000:0000:0039
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:003a
+                     fec0:bebe:cafe:0000:0000:0000:0000:003a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:003b
+                     fec0:bebe:cafe:0000:0000:0000:0000:003b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:003c
+                     fec0:bebe:cafe:0000:0000:0000:0000:003c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:003d
+                     fec0:bebe:cafe:0000:0000:0000:0000:003d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:003e
+                     fec0:bebe:cafe:0000:0000:0000:0000:003e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:003f
+                     fec0:bebe:cafe:0000:0000:0000:0000:003f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0040
+                     fec0:bebe:cafe:0000:0000:0000:0000:0040
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0041
+                     fec0:bebe:cafe:0000:0000:0000:0000:0041
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0042
+                     fec0:bebe:cafe:0000:0000:0000:0000:0042
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0043
+                     fec0:bebe:cafe:0000:0000:0000:0000:0043
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0044
+                     fec0:bebe:cafe:0000:0000:0000:0000:0044
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0045
+                     fec0:bebe:cafe:0000:0000:0000:0000:0045
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0046
+                     fec0:bebe:cafe:0000:0000:0000:0000:0046
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0047
+                     fec0:bebe:cafe:0000:0000:0000:0000:0047
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0048
+                     fec0:bebe:cafe:0000:0000:0000:0000:0048
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0049
+                     fec0:bebe:cafe:0000:0000:0000:0000:0049
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:004a
+                     fec0:bebe:cafe:0000:0000:0000:0000:004a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:004b
+                     fec0:bebe:cafe:0000:0000:0000:0000:004b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:004c
+                     fec0:bebe:cafe:0000:0000:0000:0000:004c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:004d
+                     fec0:bebe:cafe:0000:0000:0000:0000:004d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:004e
+                     fec0:bebe:cafe:0000:0000:0000:0000:004e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:004f
+                     fec0:bebe:cafe:0000:0000:0000:0000:004f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0050
+                     fec0:bebe:cafe:0000:0000:0000:0000:0050
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0051
+                     fec0:bebe:cafe:0000:0000:0000:0000:0051
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0052
+                     fec0:bebe:cafe:0000:0000:0000:0000:0052
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0053
+                     fec0:bebe:cafe:0000:0000:0000:0000:0053
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0054
+                     fec0:bebe:cafe:0000:0000:0000:0000:0054
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0055
+                     fec0:bebe:cafe:0000:0000:0000:0000:0055
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0056
+                     fec0:bebe:cafe:0000:0000:0000:0000:0056
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0057
+                     fec0:bebe:cafe:0000:0000:0000:0000:0057
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0058
+                     fec0:bebe:cafe:0000:0000:0000:0000:0058
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0059
+                     fec0:bebe:cafe:0000:0000:0000:0000:0059
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:005a
+                     fec0:bebe:cafe:0000:0000:0000:0000:005a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:005b
+                     fec0:bebe:cafe:0000:0000:0000:0000:005b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:005c
+                     fec0:bebe:cafe:0000:0000:0000:0000:005c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:005d
+                     fec0:bebe:cafe:0000:0000:0000:0000:005d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:005e
+                     fec0:bebe:cafe:0000:0000:0000:0000:005e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:005f
+                     fec0:bebe:cafe:0000:0000:0000:0000:005f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0060
+                     fec0:bebe:cafe:0000:0000:0000:0000:0060
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0061
+                     fec0:bebe:cafe:0000:0000:0000:0000:0061
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0062
+                     fec0:bebe:cafe:0000:0000:0000:0000:0062
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0063
+                     fec0:bebe:cafe:0000:0000:0000:0000:0063
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0064
+                     fec0:bebe:cafe:0000:0000:0000:0000:0064
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0065
+                     fec0:bebe:cafe:0000:0000:0000:0000:0065
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0066
+                     fec0:bebe:cafe:0000:0000:0000:0000:0066
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0067
+                     fec0:bebe:cafe:0000:0000:0000:0000:0067
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0068
+                     fec0:bebe:cafe:0000:0000:0000:0000:0068
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0069
+                     fec0:bebe:cafe:0000:0000:0000:0000:0069
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:006a
+                     fec0:bebe:cafe:0000:0000:0000:0000:006a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:006b
+                     fec0:bebe:cafe:0000:0000:0000:0000:006b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:006c
+                     fec0:bebe:cafe:0000:0000:0000:0000:006c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:006d
+                     fec0:bebe:cafe:0000:0000:0000:0000:006d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:006e
+                     fec0:bebe:cafe:0000:0000:0000:0000:006e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:006f
+                     fec0:bebe:cafe:0000:0000:0000:0000:006f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0070
+                     fec0:bebe:cafe:0000:0000:0000:0000:0070
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0071
+                     fec0:bebe:cafe:0000:0000:0000:0000:0071
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0072
+                     fec0:bebe:cafe:0000:0000:0000:0000:0072
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0073
+                     fec0:bebe:cafe:0000:0000:0000:0000:0073
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0074
+                     fec0:bebe:cafe:0000:0000:0000:0000:0074
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0075
+                     fec0:bebe:cafe:0000:0000:0000:0000:0075
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0076
+                     fec0:bebe:cafe:0000:0000:0000:0000:0076
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0077
+                     fec0:bebe:cafe:0000:0000:0000:0000:0077
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0078
+                     fec0:bebe:cafe:0000:0000:0000:0000:0078
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0079
+                     fec0:bebe:cafe:0000:0000:0000:0000:0079
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:007a
+                     fec0:bebe:cafe:0000:0000:0000:0000:007a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:007b
+                     fec0:bebe:cafe:0000:0000:0000:0000:007b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:007c
+                     fec0:bebe:cafe:0000:0000:0000:0000:007c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:007d
+                     fec0:bebe:cafe:0000:0000:0000:0000:007d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:007e
+                     fec0:bebe:cafe:0000:0000:0000:0000:007e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:007f
+                     fec0:bebe:cafe:0000:0000:0000:0000:007f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0080
+                     fec0:bebe:cafe:0000:0000:0000:0000:0080
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0081
+                     fec0:bebe:cafe:0000:0000:0000:0000:0081
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0082
+                     fec0:bebe:cafe:0000:0000:0000:0000:0082
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0083
+                     fec0:bebe:cafe:0000:0000:0000:0000:0083
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0084
+                     fec0:bebe:cafe:0000:0000:0000:0000:0084
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0085
+                     fec0:bebe:cafe:0000:0000:0000:0000:0085
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0086
+                     fec0:bebe:cafe:0000:0000:0000:0000:0086
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0087
+                     fec0:bebe:cafe:0000:0000:0000:0000:0087
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0088
+                     fec0:bebe:cafe:0000:0000:0000:0000:0088
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0089
+                     fec0:bebe:cafe:0000:0000:0000:0000:0089
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:008a
+                     fec0:bebe:cafe:0000:0000:0000:0000:008a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:008b
+                     fec0:bebe:cafe:0000:0000:0000:0000:008b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:008c
+                     fec0:bebe:cafe:0000:0000:0000:0000:008c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:008d
+                     fec0:bebe:cafe:0000:0000:0000:0000:008d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:008e
+                     fec0:bebe:cafe:0000:0000:0000:0000:008e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:008f
+                     fec0:bebe:cafe:0000:0000:0000:0000:008f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0090
+                     fec0:bebe:cafe:0000:0000:0000:0000:0090
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0091
+                     fec0:bebe:cafe:0000:0000:0000:0000:0091
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0092
+                     fec0:bebe:cafe:0000:0000:0000:0000:0092
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0093
+                     fec0:bebe:cafe:0000:0000:0000:0000:0093
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0094
+                     fec0:bebe:cafe:0000:0000:0000:0000:0094
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0095
+                     fec0:bebe:cafe:0000:0000:0000:0000:0095
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0096
+                     fec0:bebe:cafe:0000:0000:0000:0000:0096
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0097
+                     fec0:bebe:cafe:0000:0000:0000:0000:0097
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0098
+                     fec0:bebe:cafe:0000:0000:0000:0000:0098
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0099
+                     fec0:bebe:cafe:0000:0000:0000:0000:0099
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:009a
+                     fec0:bebe:cafe:0000:0000:0000:0000:009a
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:009b
+                     fec0:bebe:cafe:0000:0000:0000:0000:009b
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:009c
+                     fec0:bebe:cafe:0000:0000:0000:0000:009c
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:009d
+                     fec0:bebe:cafe:0000:0000:0000:0000:009d
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:009e
+                     fec0:bebe:cafe:0000:0000:0000:0000:009e
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:009f
+                     fec0:bebe:cafe:0000:0000:0000:0000:009f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a0
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a0
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a1
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a1
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a2
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a2
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a3
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a3
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a4
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a4
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a5
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a5
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a6
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a6
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a7
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a7
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a8
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a8
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00a9
+                     fec0:bebe:cafe:0000:0000:0000:0000:00a9
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00aa
+                     fec0:bebe:cafe:0000:0000:0000:0000:00aa
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ab
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ab
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ac
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ac
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ad
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ad
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ae
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ae
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00af
+                     fec0:bebe:cafe:0000:0000:0000:0000:00af
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b0
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b0
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b1
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b1
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b2
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b2
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b3
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b3
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b4
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b4
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b5
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b5
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b6
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b6
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b7
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b7
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b8
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b8
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00b9
+                     fec0:bebe:cafe:0000:0000:0000:0000:00b9
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ba
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ba
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00bb
+                     fec0:bebe:cafe:0000:0000:0000:0000:00bb
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00bc
+                     fec0:bebe:cafe:0000:0000:0000:0000:00bc
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00bd
+                     fec0:bebe:cafe:0000:0000:0000:0000:00bd
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00be
+                     fec0:bebe:cafe:0000:0000:0000:0000:00be
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00bf
+                     fec0:bebe:cafe:0000:0000:0000:0000:00bf
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c0
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c0
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c1
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c1
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c2
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c2
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c3
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c3
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c4
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c4
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c5
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c5
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c6
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c6
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c7
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c7
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c8
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c8
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00c9
+                     fec0:bebe:cafe:0000:0000:0000:0000:00c9
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ca
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ca
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00cb
+                     fec0:bebe:cafe:0000:0000:0000:0000:00cb
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00cc
+                     fec0:bebe:cafe:0000:0000:0000:0000:00cc
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00cd
+                     fec0:bebe:cafe:0000:0000:0000:0000:00cd
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ce
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ce
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00cf
+                     fec0:bebe:cafe:0000:0000:0000:0000:00cf
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d0
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d0
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d1
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d1
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d2
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d2
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d3
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d3
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d4
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d4
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d5
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d5
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d6
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d6
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d7
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d7
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d8
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d8
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00d9
+                     fec0:bebe:cafe:0000:0000:0000:0000:00d9
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00da
+                     fec0:bebe:cafe:0000:0000:0000:0000:00da
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00db
+                     fec0:bebe:cafe:0000:0000:0000:0000:00db
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00dc
+                     fec0:bebe:cafe:0000:0000:0000:0000:00dc
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00dd
+                     fec0:bebe:cafe:0000:0000:0000:0000:00dd
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00de
+                     fec0:bebe:cafe:0000:0000:0000:0000:00de
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00df
+                     fec0:bebe:cafe:0000:0000:0000:0000:00df
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e0
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e0
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e1
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e1
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e2
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e2
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e3
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e3
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e4
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e4
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e5
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e5
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e6
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e6
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e7
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e7
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e8
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e8
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00e9
+                     fec0:bebe:cafe:0000:0000:0000:0000:00e9
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ea
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ea
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00eb
+                     fec0:bebe:cafe:0000:0000:0000:0000:00eb
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ec
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ec
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ed
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ed
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ee
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ee
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ef
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ef
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f0
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f0
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f1
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f1
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f2
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f2
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f3
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f3
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f4
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f4
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f5
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f5
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f6
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f6
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f7
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f7
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f8
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f8
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00f9
+                     fec0:bebe:cafe:0000:0000:0000:0000:00f9
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00fa
+                     fec0:bebe:cafe:0000:0000:0000:0000:00fa
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00fb
+                     fec0:bebe:cafe:0000:0000:0000:0000:00fb
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00fc
+                     fec0:bebe:cafe:0000:0000:0000:0000:00fc
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00fd
+                     fec0:bebe:cafe:0000:0000:0000:0000:00fd
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00fe
+                     fec0:bebe:cafe:0000:0000:0000:0000:00fe
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:00ff
+                     fec0:bebe:cafe:0000:0000:0000:0000:00ff

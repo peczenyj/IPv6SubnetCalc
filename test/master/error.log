@@ -1,0 +1,7 @@
+Error: nodename nor servname provided, or not known
+Error: Not valid ipv6 address!
+Error: Incorrect ipv6 prefix, must be between 1 to 128
+Error: Incorrect ipv6 prefix, must be between 1 to 128
+Error: Incorrect subnet mask, must be between 1 to 128
+Error: Incorrect subnet mask, must be between 1 to 128
+Error: Subnet Mask cannot be bigger than Split mask
