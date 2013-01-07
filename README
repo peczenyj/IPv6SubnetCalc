@@ -1,4 +1,4 @@
-IPv6 Calculator 
+IPv6 Subnet Calculator 
 by Tiago Peczenyj <tiago.peczenyj@gmail.com>
 
 This is a small example of my version of the IPc6 Subnet Calculator with 2 features
@@ -7,7 +7,7 @@ This is a small example of my version of the IPc6 Subnet Calculator with 2 featu
 
 Examples
 
-/path/to/IPv6SubnetCalc fec0:bebe:cafe::1/88
+bash$ /path/to/IPv6SubnetCalc fec0:bebe:cafe::1/88
 
 [fec0:bebe:cafe::1/88]
 
@@ -21,7 +21,7 @@ Examples
 
 In Network range section we can read the ipv6 interval of this subnet
 
-/path/to/IPv6SubnetCalc fec0:bebe:cafe::/122 124
+bash$ /path/to/IPv6SubnetCalc fec0:bebe:cafe::/122 124
 
 ...
 [Split network]
@@ -41,8 +41,8 @@ In this case, I try split the subnet /122 in 4 subnets of /124
 
 project:
 
-bin/ -> contain the binary
-src/ -> contain the code (C++) and Makefile
+bin/  -> contain the binary
+src/  -> contain the code (C++) and Makefile
 test/ -> contain the test cases
 
 build, test and run:
