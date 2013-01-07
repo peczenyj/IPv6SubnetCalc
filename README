@@ -1,0 +1,117 @@
+IPv6 Calculator 
+by Tiago Peczenyj <tiago.peczenyj@gmail.com>
+
+This is a small example of my version of the IPc6 Subnet Calculator with 2 features
+ - calculate the begin and end of one specific subnet and
+ - split the subnet in other based on bitmask
+
+Examples
+
+/path/to/IPv6SubnetCalc fec0:bebe:cafe::1/88
+
+[fec0:bebe:cafe::1/88]
+
+[IPV6 INFO]
+ Expanded Address  - fec0:bebe:cafe:0000:0000:0000:0000:0001
+ Compressed address- fec0:bebe:cafe::1
+ Prefix address    - ffff:ffff:ffff:ffff:ffff:ff00:0000:0000
+ Prefix length     - 88
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:0000:00ff:ffff:ffff
+
+In Network range section we can read the ipv6 interval of this subnet
+
+/path/to/IPv6SubnetCalc fec0:bebe:cafe::/122 124
+
+...
+[Split network]
+ Split the current network into subnets of 124 bits of size
+ Found 4 subnet(s) 
+
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+                     fec0:bebe:cafe:0000:0000:0000:0000:000f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0010
+                     fec0:bebe:cafe:0000:0000:0000:0000:001f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0020
+                     fec0:bebe:cafe:0000:0000:0000:0000:002f
+ Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0030
+                     fec0:bebe:cafe:0000:0000:0000:0000:003f
+
+In this case, I try split the subnet /122 in 4 subnets of /124 
+
+project:
+
+bin/ -> contain the binary
+src/ -> contain the code (C++) and Makefile
+test/ -> contain the test cases
+
+build, test and run:
+
+bash$ cd src/
+bash$ make         # will generate only the binary
+bash$ make clean   # clean binary and objects
+bash$ make test    # will compile and run all tests
+
+example of test
+bash$ make test
+g++ -O2 -g -Wall -fmessage-length=0   -c -o IPv6SubnetCalc.o IPv6SubnetCalc.cpp
+g++ -O2 -g -Wall -fmessage-length=0   -c -o main.o main.cpp
+g++ -o ../bin/IPv6SubnetCalc IPv6SubnetCalc.o main.o 
+
+DEBUG: clean all diffs files
+TEST usage message
+usage ..OK
+TEST basic ips
+basic ..OK
+TEST subnets
+subnet ..OK
+TEST error messages
+error ..OK
+
+TEST DONE, result:
+ALL (4) PASS(4)/FAIL(0)
+
+
+Files:
+
+in src we can find
+
+IPv6SubnetCalc.h   -> with data structures definition and prototypes
+IPv6SubnetCalc.cpp -> with our code
+main.cpp           -> with the main section
+
+Design:
+
+data structures:
+
+IPv6       -> represent on ipv6 address with prefix
+IPv6Subnet -> represent one subnet with begin and end address and mask
+
+basic functions: 
+
+IPv6 createIPv6fromString(std::string ip, int prefix);
+input:  ipv6 address without the /prefix, prefix
+output: IPv6 struct based on the input parameters
+throws: Exception if the prefix is out of range or the ip format is not ipv6
+
+IPv6Subnet createIPv6Subnet(IPv6 ip, int mask);
+input: IPv6 struct and subnet mask
+output: IPv6Subnet struc with begin and end address
+throws: Exception if the mask is out of range 
+
+std::list<IPv6Subnet> IPv6SubnetSplit(IPv6Subnet subnet, int mask);
+input: IPv6Subnet struc and number of bits to split (mask)
+output: list of all subnets with 2**(mask-subnet.mask) elements
+throws: exception if mask is out of range or subnet.mask > mask
+
+Final Considerations:
+
+This is a Proof of Concept. My intent is only show the basic algorithm to calculate one 
+ipv6 subnet and split one subnet in many others.
+I try to cover the most common errors from the input and the interface is very simple (KISS).
+
+I build this in a MacOS X version 10.6.8
+
+Thanks
+
+Tiago
