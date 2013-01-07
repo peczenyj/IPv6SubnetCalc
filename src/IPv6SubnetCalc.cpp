@@ -16,6 +16,11 @@
 
 #include "IPv6SubnetCalc.h"
 
+/**
+ *  act as a constructor to build one IPv6 from an anddress and one prefix
+ *  returns one IPv6 and throw exception (char *) in case of one error (like not valid ip address)
+ */ 
+
 IPv6 createIPv6fromString(std::string str, int prefix=128) {
 	IPv6 ip;
 	int status;
@@ -46,11 +51,19 @@ IPv6 createIPv6fromString(std::string str, int prefix=128) {
 	return ip;
 }
 
+/**
+ *  Create a readable representation for one IPv6
+ */ 
+
 std::string IPv6toCompressedString(IPv6 ip){
 	char ipstr[INET6_ADDRSTRLEN];
 	inet_ntop(AF_INET6, &(ip.addr), ipstr, sizeof ipstr);
 	return std::string(ipstr);
 }
+
+/**
+ *  Create a complete representation for one IPv6
+ */ 
 
 std::string IPv6toString(IPv6 ip){
 	char str[128];
@@ -68,6 +81,10 @@ std::string IPv6toString(IPv6 ip){
 	return std::string(str);
 }
 
+/**
+ *  Create one "mask" for the IPv6 based on the prefix
+ */ 
+
 IPv6 addressFromIp(IPv6 ip){
 	IPv6 address;
 	int imask = 128 - ip.prefix;
@@ -81,6 +98,10 @@ IPv6 addressFromIp(IPv6 ip){
 
 	return address;
 }
+
+ /**
+  *  Creates a subnet from one ip address and one mask length
+  */ 
 
 IPv6Subnet createIPv6Subnet(IPv6 address, int mask) {
 	if(mask > 128 || mask < 0){
@@ -124,10 +145,17 @@ IPv6Subnet createIPv6Subnet(IPv6 address, int mask) {
 	return subnet;
 }
 
+ /**
+  *  Just a helper to create one subnet based on the prefix of one ipv6 address
+  */ 
 IPv6Subnet createIPv6Subnet(IPv6 address){
 	return createIPv6Subnet(address, address.prefix);
 }
 
+ /**
+  *  Calculate the next ip address (the successor)
+  *  Important to split subnets!
+  */ 
 IPv6 succ(IPv6 old){
 	IPv6 ip = old;
 	for(int i=15;i>=0;i--){
@@ -140,6 +168,33 @@ IPv6 succ(IPv6 old){
 	return ip;
 }
 
+ /**
+  *  Split one subnet in many based on bitmask lenght
+  *  
+  *  Example: Split the subnet fec0:bebe:cafe::/64 in many subnets with 65 bits
+  * 
+  *  We can split in two subnets -> 2**(65 - 64)
+   
+  [fec0:bebe:cafe::/64]
+
+	[IPV6 INFO]
+	 Expanded Address  - fec0:bebe:cafe:0000:0000:0000:0000:0000
+	 Compressed address- fec0:bebe:cafe::
+	 Prefix address    - ffff:ffff:ffff:ffff:0000:0000:0000:0000
+	 Prefix length     - 64
+	 Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+	                     fec0:bebe:cafe:0000:ffff:ffff:ffff:ffff
+	
+	[Split network]
+	 Split the current network into subnets of 65 bits of size
+	 Found 2 subnet(s) 
+	
+	 Network range     - fec0:bebe:cafe:0000:0000:0000:0000:0000
+	                     fec0:bebe:cafe:0000:7fff:ffff:ffff:ffff
+	 Network range     - fec0:bebe:cafe:0000:8000:0000:0000:0000
+	                     fec0:bebe:cafe:0000:ffff:ffff:ffff:ffff
+ 
+  */ 
 std::list<IPv6Subnet> IPv6SubnetSplit(IPv6Subnet subnet, int mask){
 	std::list<IPv6Subnet> subnets;
 
